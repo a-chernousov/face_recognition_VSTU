@@ -1,0 +1,39 @@
+{
+    "verified": true,
+    "distance": 0.2224121883009752,
+    "threshold": 0.3,
+    "model": "Facenet512",
+    "detector_backend": "opencv",
+    "similarity_metric": "cosine",
+    "facial_areas": {
+        "img1": {
+            "x": 312,
+            "y": 257,
+            "w": 423,
+            "h": 423,
+            "left_eye": [
+                612,
+                421
+            ],
+            "right_eye": [
+                468,
+                415
+            ]
+        },
+        "img2": {
+            "x": 147,
+            "y": 566,
+            "w": 450,
+            "h": 450,
+            "left_eye": [
+                452,
+                736
+            ],
+            "right_eye": [
+                282,
+                736
+            ]
+        }
+    },
+    "time": 5.2
+}
